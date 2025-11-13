@@ -1,0 +1,156 @@
+{
+  "app": {
+    "title": "RINDA Search",
+    "subtitle": "AI Lead Discovery Agent"
+  },
+  "header": {
+    "sync": "Sync Drive",
+    "syncing": "Syncing...",
+    "languageSwitch": "Switch Language"
+  },
+  "chat": {
+    "placeholder": "What leads are you looking for? Ask me anything.",
+    "send": "Send",
+    "typing": "Typing...",
+    "agentThinking": "Analyzing...",
+    "agentSearching": "Searching documents...",
+    "agentExtracting": "Finding contact information...",
+    "addFile": "Attach File",
+    "addFileTooltip": "Attach files to extract leads automatically",
+    "analyzeWebsite": "Analyze Website",
+    "analyzeWebsiteTooltip": "Enter a website URL to find leads automatically",
+    "voiceInput": "Voice Input",
+    "voiceInputTooltip": "Ask your question using voice",
+    "sendMessage": "Send Message",
+    "sendMessageTooltip": "Press Enter to send (Shift + Enter for new line)"
+  },
+  "status": {
+    "sync": {
+      "title": "Sync Status",
+      "scanning": "Scanning",
+      "downloading": "Downloading",
+      "uploading": "Uploading",
+      "indexing": "Indexing",
+      "idle": "Idle",
+      "ready": "Ready"
+    },
+    "documents": {
+      "title": "Documents Indexed",
+      "count": "{count} documents",
+      "tooltip": "Number of documents analyzed from Google Drive"
+    },
+    "agent": {
+      "title": "Agent Status",
+      "responding": "Responding",
+      "ready": "Ready",
+      "analyzing": "Analyzing",
+      "tooltip": "Current status of the AI agent"
+    }
+  },
+  "quickPrompts": {
+    "title": "Quick Start",
+    "findLeads": "Find Leads",
+    "findLeadsTooltip": "Quickly discover potential clients from your documents",
+    "extractContacts": "Extract Contacts",
+    "extractContactsTooltip": "Auto-organize contact info from your documents",
+    "analyzeIndustry": "Analyze Industries",
+    "analyzeIndustryTooltip": "Get insights into industry distribution"
+  },
+  "leads": {
+    "title": "Discovered Leads",
+    "totalLeads": "{count} Total",
+    "highConfidence": "{count} High Quality",
+    "withContacts": "{count} Contacts",
+    "lastUpdated": "Last Updated",
+    "search": "Search by company, contact, or industry...",
+    "filterByIndustry": "Industry",
+    "filterByLocation": "Location",
+    "filterByConfidence": "Confidence",
+    "sortBy": "Sort",
+    "sortByName": "Name",
+    "sortByConfidence": "Confidence",
+    "sortByDate": "Latest",
+    "noResults": "No results found",
+    "noResultsDesc": "Try different keywords or discover new leads"
+  },
+  "leadCard": {
+    "contacts": "{count} contacts",
+    "confidence": "Confidence",
+    "highConfidence": "High",
+    "mediumConfidence": "Medium",
+    "lowConfidence": "Low",
+    "viewDetails": "Details",
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "confidenceTooltip": "AI-assessed reliability of this information (80%+ recommended)"
+  },
+  "leadDetail": {
+    "companyInfo": "Company Information",
+    "website": "Website",
+    "industry": "Industry",
+    "location": "Location",
+    "size": "Company Size",
+    "description": "Description",
+    "contacts": "Contacts",
+    "name": "Name",
+    "title": "Title",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "source": "Source",
+    "extractedAt": "Discovered",
+    "addNote": "Add Note",
+    "notePlaceholder": "Write a note about this lead...",
+    "saveNote": "Save",
+    "copyEmail": "Copy Email",
+    "copyPhone": "Copy Phone",
+    "copyLinkedIn": "Copy LinkedIn",
+    "copied": "Copied!",
+    "clickToCopy": "Click to copy",
+    "websiteTooltip": "Visit company website",
+    "sourceTooltip": "View source document"
+  },
+  "actions": {
+    "export": "Export",
+    "exportCSV": "Download CSV",
+    "exportExcel": "Download Excel",
+    "exportJSON": "Download JSON",
+    "exportTooltip": "Save selected leads as a file",
+    "sendEmail": "Email",
+    "sendEmailTooltip": "Send selected leads via email",
+    "copySelected": "Copy",
+    "copySelectedTooltip": "Copy selected leads to clipboard",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "selected": "{count} selected"
+  },
+  "messages": {
+    "user": "You",
+    "agent": "Agent",
+    "thinking": "Thinking Process",
+    "showThinking": "Show Thinking",
+    "hideThinking": "Hide Thinking"
+  },
+  "notifications": {
+    "syncStarted": "Started syncing your drive",
+    "syncCompleted": "Sync complete!",
+    "syncError": "Sync failed",
+    "exportSuccess": "File downloaded!",
+    "exportError": "Download failed",
+    "copySuccess": "Copied!",
+    "copyError": "Copy failed",
+    "noteSaved": "Note saved!"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "retry": "Retry",
+    "noDocuments": "No documents found",
+    "noDocumentsDesc": "Please sync your drive first",
+    "networkError": "Check your internet connection"
+  },
+  "footer": {
+    "poweredBy": "Powered by",
+    "vercel": "Vercel AI SDK",
+    "gemini": "Google Gemini"
+  }
+}
