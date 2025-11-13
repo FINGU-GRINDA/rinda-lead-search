@@ -1,0 +1,156 @@
+{
+  "app": {
+    "title": "RINDA Search",
+    "subtitle": "AI 리드 발굴 에이전트"
+  },
+  "header": {
+    "sync": "드라이브 동기화",
+    "syncing": "동기화 중...",
+    "languageSwitch": "언어 전환"
+  },
+  "chat": {
+    "placeholder": "어떤 리드를 찾으시나요? 자유롭게 물어보세요.",
+    "send": "전송",
+    "typing": "입력 중...",
+    "agentThinking": "분석하고 있어요...",
+    "agentSearching": "문서를 검색하고 있어요...",
+    "agentExtracting": "담당자 정보를 찾고 있어요...",
+    "addFile": "파일 첨부하기",
+    "addFileTooltip": "파일을 첨부해서 리드를 추출할 수 있어요",
+    "analyzeWebsite": "웹사이트 분석하기",
+    "analyzeWebsiteTooltip": "웹사이트 URL을 입력하면 자동으로 리드를 찾아드려요",
+    "voiceInput": "음성으로 입력하기",
+    "voiceInputTooltip": "음성으로 편하게 질문해보세요",
+    "sendMessage": "메시지 보내기",
+    "sendMessageTooltip": "Enter로 전송 (Shift + Enter로 줄바꿈)"
+  },
+  "status": {
+    "sync": {
+      "title": "동기화 상태",
+      "scanning": "문서 검색 중",
+      "downloading": "다운로드 중",
+      "uploading": "업로드 중",
+      "indexing": "색인 중",
+      "idle": "대기 중",
+      "ready": "준비 완료"
+    },
+    "documents": {
+      "title": "문서 색인",
+      "count": "{count}개 문서",
+      "tooltip": "구글 드라이브에서 분석된 문서 수"
+    },
+    "agent": {
+      "title": "에이전트 상태",
+      "responding": "응답 중",
+      "ready": "준비됨",
+      "analyzing": "분석 중",
+      "tooltip": "AI 에이전트의 현재 작업 상태"
+    }
+  },
+  "quickPrompts": {
+    "title": "빠른 시작",
+    "findLeads": "리드 발굴하기",
+    "findLeadsTooltip": "드라이브 문서에서 잠재 고객사를 빠르게 찾아드려요",
+    "extractContacts": "담당자 추출",
+    "extractContactsTooltip": "문서 속 연락처를 자동으로 정리해드려요",
+    "analyzeIndustry": "업종 분석",
+    "analyzeIndustryTooltip": "발굴한 리드의 업종 분포를 한눈에 확인해요"
+  },
+  "leads": {
+    "title": "발굴한 리드",
+    "totalLeads": "총 {count}개",
+    "highConfidence": "고품질 {count}개",
+    "withContacts": "연락처 {count}개",
+    "lastUpdated": "최종 업데이트",
+    "search": "회사명, 담당자, 업종으로 검색...",
+    "filterByIndustry": "업종",
+    "filterByLocation": "지역",
+    "filterByConfidence": "신뢰도",
+    "sortBy": "정렬",
+    "sortByName": "이름순",
+    "sortByConfidence": "신뢰도순",
+    "sortByDate": "최신순",
+    "noResults": "검색 결과가 없어요",
+    "noResultsDesc": "다른 키워드로 검색하거나 새로운 리드를 발굴해보세요"
+  },
+  "leadCard": {
+    "contacts": "{count}명",
+    "confidence": "신뢰도",
+    "highConfidence": "높음",
+    "mediumConfidence": "보통",
+    "lowConfidence": "낮음",
+    "viewDetails": "자세히",
+    "addToFavorites": "즐겨찾기",
+    "removeFromFavorites": "즐겨찾기 해제",
+    "confidenceTooltip": "AI가 분석한 정보의 신뢰도예요 (80% 이상 권장)"
+  },
+  "leadDetail": {
+    "companyInfo": "회사 정보",
+    "website": "웹사이트",
+    "industry": "업종",
+    "location": "위치",
+    "size": "기업 규모",
+    "description": "설명",
+    "contacts": "담당자",
+    "name": "이름",
+    "title": "직함",
+    "email": "이메일",
+    "phone": "연락처",
+    "linkedin": "LinkedIn",
+    "source": "출처",
+    "extractedAt": "발굴 시각",
+    "addNote": "메모 남기기",
+    "notePlaceholder": "이 리드에 대해 메모할 내용을 입력하세요...",
+    "saveNote": "저장",
+    "copyEmail": "이메일 복사",
+    "copyPhone": "연락처 복사",
+    "copyLinkedIn": "LinkedIn 복사",
+    "copied": "복사했어요!",
+    "clickToCopy": "클릭해서 복사",
+    "websiteTooltip": "회사 홈페이지 방문하기",
+    "sourceTooltip": "원본 문서 확인하기"
+  },
+  "actions": {
+    "export": "내보내기",
+    "exportCSV": "CSV 다운로드",
+    "exportExcel": "Excel 다운로드",
+    "exportJSON": "JSON 다운로드",
+    "exportTooltip": "선택한 리드를 파일로 저장해요",
+    "sendEmail": "이메일 전송",
+    "sendEmailTooltip": "선택한 리드를 이메일로 보내요",
+    "copySelected": "복사하기",
+    "copySelectedTooltip": "선택한 리드를 클립보드에 복사해요",
+    "selectAll": "전체 선택",
+    "deselectAll": "선택 해제",
+    "selected": "{count}개 선택"
+  },
+  "messages": {
+    "user": "나",
+    "agent": "에이전트",
+    "thinking": "사고 과정",
+    "showThinking": "사고 과정 보기",
+    "hideThinking": "사고 과정 숨기기"
+  },
+  "notifications": {
+    "syncStarted": "드라이브 동기화를 시작했어요",
+    "syncCompleted": "동기화 완료!",
+    "syncError": "동기화 중 문제가 생겼어요",
+    "exportSuccess": "파일을 다운로드했어요",
+    "exportError": "다운로드에 실패했어요",
+    "copySuccess": "복사했어요!",
+    "copyError": "복사에 실패했어요",
+    "noteSaved": "메모를 저장했어요"
+  },
+  "errors": {
+    "generic": "문제가 발생했어요",
+    "retry": "다시 시도",
+    "noDocuments": "문서가 없어요",
+    "noDocumentsDesc": "먼저 드라이브를 동기화해주세요",
+    "networkError": "인터넷 연결을 확인해주세요"
+  },
+  "footer": {
+    "poweredBy": "Powered by",
+    "vercel": "Vercel AI SDK",
+    "gemini": "Google Gemini"
+  }
+}
